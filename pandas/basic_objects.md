@@ -60,3 +60,19 @@ pd.Series([30, 35, 40], index=['2015 Sales', '2016 Sales', '2017 Sales'], name='
 **Note**:
 
 The Series and the DataFrame are intimately related. It's helpful to think of a DataFrame as actually being just a bunch of Series "glued together".
+
+## Assigning Data
+
+For example:
+
+```py
+reviews['critic'] = 'everyone'
+```
+
+Assigns constant value to every cell of the column.
+
+Or you can assign iterable values like:
+
+```py
+reviews['index_backwards'] = range(len(reviews), 0, -1)
+```
