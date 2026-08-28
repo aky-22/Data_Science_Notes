@@ -37,7 +37,7 @@ For example if there are 3 rows in the table however there are only 2 index, the
 
 ## Series
 
-Simply, ti is a list.
+Simply, it is a list.
 
 `pd.Series(list)`
 
@@ -57,9 +57,8 @@ pd.Series([30, 35, 40], index=['2015 Sales', '2016 Sales', '2017 Sales'], name='
 ```
 
 **Note**: A Series is, in essence, a single column of a DataFrame.
-**Note**:
 
-The Series and the DataFrame are intimately related. It's helpful to think of a DataFrame as actually being just a bunch of Series "glued together".
+**Note**: The Series and the DataFrame are intimately related. It's helpful to think of a DataFrame as actually being just a bunch of Series "glued together".
 
 ## Assigning Data
 

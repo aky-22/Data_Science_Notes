@@ -108,9 +108,9 @@ For example:
 reviews.set_index("title")
 ```
 
-Sets the "title" column asa index column, and we can choose meaningful rows.,
+Sets the "title" column as index column, and we can choose meaningful rows.
 
-**Important Note**: `loc` looks like using a matrix notation. And as far as I learned it is better to use `loc` if you do not have a specific reason to use `iloc`.
+**Important Note**: Both `loc` and `iloc` looks like matrix notation. Generally you want to use `loc` because it is more meaningful.
 
 ### Differences
 
