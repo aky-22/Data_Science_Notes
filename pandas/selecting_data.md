@@ -139,6 +139,7 @@ reviews.loc[(reviews.country == 'Italy') | (reviews.points >= 90)]
 ```
 
 There are some builtin conditional selectors.
+**Note**: When using conditional statements in pandas, you have to use paranthesis.
 
 For example:
 

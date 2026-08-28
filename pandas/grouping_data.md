@@ -17,3 +17,25 @@ Todo
 - multiindex
 - `sort_values(by="column_name", [ascending=False])`
   -> we can sort more than one column at a time like if 2 of the row's first value same check the other value
+
+## `df.groupby(col)...`
+
+Needs a calculation. For example:
+
+```py
+reviews.groupby("country").points.mean()
+```
+
+Groups the table according to country values, then calculates their means according to point values.
+
+df.groupby("NEYE\*GÖRE*GRUPLAYACAĞIM")
+.NEYİ*ÖLÇECEĞİM
+.NASIL_ÖLÇECEĞİM
+
+## `df.groupby(col)....agg()`
+
+To use more than one calculation. For example:
+
+```py
+reviews.groupby("country").points.agg(["mean", "min", "max"])
+```

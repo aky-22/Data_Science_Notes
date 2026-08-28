@@ -3,7 +3,8 @@
 - Select -> `loc`
   `df.loc[row, column]`
 
-- temp
+- Manipulate columns -> `map`
+  `df.col.map(func)`
 
 ## Warnings
 
