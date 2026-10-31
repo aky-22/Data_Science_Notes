@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "sql/Delete.md",
+                "file": "pandas/working_on_jupyter.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Delete"
+              "title": "working_on_jupyter"
             }
           }
         ]
@@ -190,17 +190,17 @@
   },
   "active": "eb2d50f1dbea9500",
   "lastOpenFiles": [
-    "sql/Alter.md",
-    "sql/Create Table.md",
-    "sql/Delete.md",
     "sql/Update.md",
-    "sql/Insert.md",
-    "sql/Execution Order.md",
-    "sql/Aggregates.md",
-    "sql/Basic Expressions.md",
     "sql/NULL.md",
     "sql/JOIN.md",
+    "sql/Insert.md",
+    "sql/Execution Order.md",
+    "sql/Delete.md",
+    "sql/Create Table.md",
     "sql/Basics.md",
+    "sql/Basic Expressions.md",
+    "sql/Alter.md",
+    "sql/Aggregates.md",
     "pandas/analyzing_data.md",
     "pandas/reading_data.md",
     "pandas/basic_objects.md",
